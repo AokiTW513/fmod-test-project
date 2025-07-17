@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{dd56098b-703d-483d-abbc-b195e6840936}">
+		<property name="assetPath">
+			<value>SFX/Player/IDK3.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.2143310657596372</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3bc12ecc-b5f7-404c-a9c5-0519d1dc8a38}</destination>
+		</relationship>
+	</object>
+</objects>

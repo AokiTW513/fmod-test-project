@@ -1,0 +1,17 @@
+{
+    "player": {
+        "playerName": "Player",
+        "playerPosition": {
+            "x": 0.9766882061958313,
+            "y": -3.6100010871887209,
+            "z": 0.0
+        }
+    },
+    "map": {
+        "coin": 2,
+        "collectedItemIDs": [
+            "coin_1",
+            "coin_2"
+        ]
+    }
+}

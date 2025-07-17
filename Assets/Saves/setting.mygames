@@ -1,0 +1,17 @@
+{
+    "setting": {
+        "audio": {
+            "volume": {
+                "masterVolume": 0.0,
+                "bgmVolume": 1.0,
+                "sfxVolume": 1.0,
+                "ambienceVolume": 1.0
+            }
+        },
+        "graph": {
+            "isFullScreen": true,
+            "resolutionWidth": 1920,
+            "resolutionHeight": 1080
+        }
+    }
+}
