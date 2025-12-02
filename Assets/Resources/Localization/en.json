@@ -1,0 +1,19 @@
+{
+  "items": [
+    { "key": "title", "value": "A Game" },
+    { "key": "newgame", "value": "New Game" },
+    { "key": "loadgame", "value": "Load Game" },
+    { "key": "cleargame", "value": "Clear Data" },
+    { "key": "setting", "value": "Setting" },
+    { "key": "quit", "value": "Quit" },
+    { "key": "settingtitle", "value": "Setting" },
+    { "key": "audio", "value": "Audio" },
+    { "key": "graph", "value": "Graph" },
+    { "key": "clearsettingdata", "value": "Clear Setting Data" },
+    { "key": "master", "value": "Master" },
+    { "key": "bgm", "value": "BGM" },
+    { "key": "sfx", "value": "SFX" },
+    { "key": "ambience", "value": "Ambience" },
+    { "key": "exit", "value": "Exit" }
+  ]
+}

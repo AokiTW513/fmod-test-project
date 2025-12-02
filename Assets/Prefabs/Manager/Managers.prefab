@@ -44,6 +44,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 779b906940277f941a1b123662c052b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isFullScreen: 0
+  resolutionWidth: 0
+  resolutionHeight: 0
+--- !u!1 &3591707147059991837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7571608569513921312}
+  - component: {fileID: 5760471735326129307}
+  m_Layer: 0
+  m_Name: LocalizationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7571608569513921312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591707147059991837}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 984.31, y: 611.1853, z: -2.7668846}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2966931207547344315}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5760471735326129307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591707147059991837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f711d919e764bdb48bc2d0e395b1e089, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentLanguage: en
 --- !u!1 &4788872230453365693
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,6 +189,11 @@ MonoBehaviour:
   PauseBackGround: {fileID: 0}
   SettingUI: {fileID: 0}
   AudioSettingUI: {fileID: 0}
+  GraphSettingUI: {fileID: 0}
+  MainMenuUI: {fileID: 0}
+  MainMenuSettingUI: {fileID: 0}
+  MainMenuAudioSettingUI: {fileID: 0}
+  MainMenuGraphSettingUI: {fileID: 0}
 --- !u!1 &6161810229897041005
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,14 +238,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca3ff387b58e7845b30d9802a30f086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saveFileName: save.mygames
-  currentData:
+  gameSaveFileName: save.mygames
+  settingSaveFileName: setting.mygames
+  currentGameData:
     player:
       playerName: Player
       playerPosition: {x: 0, y: 0, z: 0}
     map:
       coin: 0
       collectedItemIDs: []
+  currentSettingData:
     setting:
       audio:
         volume:
@@ -200,6 +255,10 @@ MonoBehaviour:
           bgmVolume: 0
           sfxVolume: 0
           ambienceVolume: 0
+      graph:
+        isFullScreen: 0
+        resolutionWidth: 0
+        resolutionHeight: 0
 --- !u!1 &8271189150954299132
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,6 +293,7 @@ Transform:
   - {fileID: 9041373286545183788}
   - {fileID: 144408278280895766}
   - {fileID: 3255086370134824529}
+  - {fileID: 7571608569513921312}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8365251029891890319

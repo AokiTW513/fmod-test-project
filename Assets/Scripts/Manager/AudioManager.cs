@@ -60,7 +60,7 @@ public class AudioManager : MonoBehaviour
         sfxBus.setVolume(sfxVolume);
     }
 
-    private void Update()
+    public void SetVolume()
     {
         masterBus.setVolume(masterVolume);
         bgmBus.setVolume(bgmVolume);

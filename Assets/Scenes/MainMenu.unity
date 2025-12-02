@@ -119,6 +119,101 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &6289560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6289561}
+  - component: {fileID: 6289562}
+  m_Layer: 0
+  m_Name: InputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6289561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6289560}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 984.31, y: 611.1853, z: -2.7668846}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1037651260}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6289562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6289560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e4c8d33cfadb2f40b01868896330704, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  actionName: Jump
+  anyInputAction:
+    m_Name: Any Input
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 37b65359-3e33-496a-a0c9-3b5a78917c32
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 55405a7c-9f14-404a-a246-54ac2b2d98da
+      m_Path: <Gamepad>/*
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Any Input
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 67f7162f-9d0e-467e-8fda-63a2bb7288a8
+      m_Path: <Keyboard>/anyKey
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Any Input
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 5a61975f-897f-4603-adfc-dba0b5bc2a69
+      m_Path: <Mouse>/leftButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Any Input
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 41e6eea5-6336-45d9-b328-f579323fee80
+      m_Path: <Mouse>/middleButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Any Input
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 01d6c300-aff7-40f4-a570-e8caeaded51b
+      m_Path: <Mouse>/rightButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Any Input
+      m_Flags: 0
+    m_Flags: 0
 --- !u!1 &32322307
 GameObject:
   m_ObjectHideFlags: 0
@@ -2645,6 +2740,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969622584}
   m_CullTransparentMesh: 1
+--- !u!4 &1037651260 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2966931207547344315, guid: d62b8ae452803f64d8c67f806cc0c418, type: 3}
+  m_PrefabInstance: {fileID: 1119278713}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1042301447
 GameObject:
   m_ObjectHideFlags: 0
@@ -3007,7 +3107,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2966931207547344315, guid: d62b8ae452803f64d8c67f806cc0c418, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6289561}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d62b8ae452803f64d8c67f806cc0c418, type: 3}
 --- !u!1 &1189054050

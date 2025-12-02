@@ -501,7 +501,7 @@
                     "name": "Cancel",
                     "type": "Button",
                     "id": "15cef263-9014-4fd5-94d9-4e4a6234a6ef",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -986,6 +986,34 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "CheckDevice",
+            "id": "a758f9f5-0dbd-4fb7-a008-9b138f3e0a6b",
+            "actions": [
+                {
+                    "name": "AnyInput",
+                    "type": "Button",
+                    "id": "2dc0679d-94c3-4b7a-a989-1b95f76a77cc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e6ed6449-7347-4afd-af74-a84d38c8b665",
+                    "path": "<*/>",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AnyInput",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

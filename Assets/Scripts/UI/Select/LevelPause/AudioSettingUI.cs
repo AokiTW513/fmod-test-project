@@ -38,7 +38,7 @@ public class AudioSettingUI : SelectUIBase
     private void UpdateVolume()
     {
         float value = options[selectedIndex].value / 10f;
- 
+
         switch (selectedIndex)
         {
             case 0:
@@ -57,6 +57,8 @@ public class AudioSettingUI : SelectUIBase
                 Debug.LogError("Bro how did u selected other things wtf");
                 break;
         }
+
+        AudioManager.instance.SetVolume();
     }
 
     protected override void OnPressBackButton()
